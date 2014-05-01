@@ -3,6 +3,6 @@ Type=Application
 Name=qxkb
 TryExec=qxkb
 Exec=qxkb
-OnlyShowIn=Razor;
+OnlyShowIn=LXQt;
 
 #TRANSLATIONS_DIR=translations

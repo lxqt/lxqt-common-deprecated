@@ -1,12 +1,2 @@
-[Desktop Entry]
-Type=Application
-Name=QStarDict
-TryExec=qstardict
-Exec=qstardict
-OnlyShowIn=LxQt;
-
-#TRANSLATIONS_DIR=translations
-
-
 # Translations
 Name[fi]=QStarDict

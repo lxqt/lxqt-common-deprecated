@@ -1,16 +1,2 @@
-[Desktop Entry]
-Type=Application
-Version=1.0
-Name=LxQt Autosuspend
-TryExec=lxqt-autosuspend
-Exec=lxqt-autosuspend
-OnlyShowIn=LxQt;
-Hidden=true
-X-LxQt-Need-Tray=true
-X-LxQt-Module=true
-
-#TRANSLATIONS_DIR=translations
-
-
 # Translations
-Name[cs]=Automatické uspání LxQt
+Name[cs]=Automatické uspání LXQt

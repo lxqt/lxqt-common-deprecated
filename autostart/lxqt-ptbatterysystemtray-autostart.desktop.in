@@ -3,6 +3,6 @@ Type=Application
 Name=PtBatterySystemTray
 TryExec=ptbatterysystemtray
 Exec=ptbatterysystemtray
-OnlyShowIn=Razor;
+OnlyShowIn=LXQt;
 
 #TRANSLATIONS_DIR=translations

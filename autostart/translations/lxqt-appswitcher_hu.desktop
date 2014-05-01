@@ -1,14 +1,2 @@
-[Desktop Entry]
-Type=Application
-Name=Application Switcher
-TryExec=lxqt-appswitcher
-Exec=lxqt-appswitcher
-Hidden=true
-OnlyShowIn=LxQt;
-X-LxQt-Module=true
-
-#TRANSLATIONS_DIR=translations
-
-
 # Translations
 Name[hu]=Alkalmazásváltó
