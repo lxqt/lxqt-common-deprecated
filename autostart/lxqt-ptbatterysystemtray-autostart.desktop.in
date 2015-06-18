@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=PtBatterySystemTray
-TryExec=ptbatterysystemtray
-Exec=ptbatterysystemtray
-OnlyShowIn=LXQt;
-
-#TRANSLATIONS_DIR=translations
