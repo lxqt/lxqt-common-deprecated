@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=qxkb
-TryExec=qxkb
-Exec=qxkb
-OnlyShowIn=LXQt;
-
-#TRANSLATIONS_DIR=translations
