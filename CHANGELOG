@@ -1,0 +1,202 @@
+
+lxqt-common-0.11.0 / 2016-09-24
+===============================
+
+  * Update and extend README.md
+  * themes-system: Add "background" property to panel
+  * startlxqt: Consider LXQT_DEFAULT_OPENBOX_CONFIG
+  * startlxqt: Honor the pre-defined SAL_USE_VLCPLUGIN
+  * themes: Remove Screensaver styles
+  * Replace lxqt-rc.xml with latest openbox version
+  * Move Italian desktop entry to correct path
+  * startlxqt: Consider pre-exising LXDE OB config also
+  * Create lxqt-powermanagement_it.desktop
+  * build: Revert @6d6d2bef54
+  * build: Add xmessage as "dependency"
+  * Openbox: Fix informational message about adoption of rc.xml
+  * themes: Take layoutDirection into account
+  * lxqt-rc.xml: Change default config install path
+  * startlxqt: Copy existing openbox config preferably
+  * Fix the search textfield style for all themes (#52)
+  * PCManFM-Qt: Update default wallpaper (#49)
+  * Added style for the ColorPicker plugin.
+  * Improves changed Openbox default path startup message (#51)
+  * Disable gtk+ 3 overlay scrollbars by default.
+  * Fix bg-fg color swapping in Frost (#50)
+  * Don't add XDG_DATA_HOME to XDG_DATA_DIRS (#47)
+  * Merge pull request #45 from lxde/menu-comment
+  * Message about Openbox default path changed.
+  * Warning message about openbox settings path changed.
+  * startlxqt: Force XDG_CONFIG_DIRS to contain @LXQT_ETC_XDG_DIR@
+  * theme system: Force no icon for main menu
+  * Merge pull request #48 from lxde/pcmanfm-qt-sort-order
+  * Copy openbox defaults at session start.
+  * First experiment in theming the new search menu feature.
+  * Rename openbox/rc.xml to openbox/lxqt-openbox-rc.xml
+  * Openbox aero snap using mouse wheel over title bar.
+  * Settings Openbox updated.
+  * Screenshot (Shift+Print), file manager (ctl+Alt+e) and web browser (Ctl+atl+i) key shortcuts added.
+  * Default key shortcuts added to lxqt-globalkeysd.
+  * icons: Add icon "lxqt"
+  * Wallpaper updated. Lighter and with the hummingbird for some identity.
+  * Use the system palette to change the main colors, this will make the theme more integrated with the whole environment. Fixed ugly buttons in the volume applet.
+  * Use lxqt-sudo in pcmanfm-qt config file by default.
+  * Themes: adjust main menu icon in Light
+  * themes: Add system theme (no theme)
+  * CMakeLists: Use LXQT_GRAPHICS_DIR for graphics
+  * lxqt-applications.menu: remove accidentally added topics from "System Tools"
+  * Add startlxqt man page
+
+0.10.0 / 2015-10-08
+===================
+
+  * Fixes #807 – Add XDG_CACHE_HOME definition
+  * Deleted and ignored *.kdev4
+  * themes: added styles to distinguish disabled QMenu entries
+  * startlxqt: optimization of XDG_DATA_DIRS
+  * corrected indentation
+  * startlxqt: Set proper prefix for XDG_DATA_DIRS
+  * remove qxkb from autostart and from translations
+  * Update Greek translation (el) Remove country variant from language code
+  * Rename LxQt to LXQt everywhere
+  * CMake: Adds Runtime and Devel install COMPONENTs
+  * Coding style changes
+  * Removes no added value comments
+  * Adds double quotes to everything that may break
+  * Use GNUINnstallDirs
+  * theme-light: add plugin handle
+  * Updates the build system to use the Targets infrastructure
+  * Place LXQt About over Preferences in the main menu
+  * Enable the "leave confirmation dialog" by default
+  * adjust default wallpaper to default theme
+  * lxqt-qlipper-autostart: added X-LXQt-Need-Tray key
+  * remove *screenlocker* and *autosuspend*
+  * remove lxqt-ptbatterysystemtray
+  * TryExec to detect proper installed lxqt-session
+  * Rename Power Management module name again
+  * Rename LXQt Power Management module name
+  * themes: panel volume popup rounded highlighted button corners
+  * theme-light: volume popup buttons styles
+  * themes: volume popup buttons show outline
+  * Added italian translation in menu
+  * Added german translation for the settings directory.
+  * Uniforms indentation
+  * Sets env variable XDG_CONFIG_DIRS
+  * Drops hardcoded /etc/xdg paths
+  * menu: hungarian translations added
+  * Set LibreOffice's plugin env var to kde4
+  * config: auto-detect succesfully kwin on recent kwin versions
+  * Add Russian translation
+  * themes: avoid uneccessary (and/or orientation specific) margins
+  * Handle urgency hint in desktopswitch in themes
+  * themes: spacer as semitransparent lighter/darker line
+  * themes-panel: initial styles for taskbar groups
+  * Added style for the new Spacer plugin.
+  * Added style for the new Spacer plugin.
+  * Added style for the new Spacer plugin.
+  * theme Frost: added urgency style for TaskBar button (as in all other themes)
+  * Make themes' directories' names lowercase again
+  * Updated german translation, replaced Qt4 by Qt in all xsession/translations
+
+0.9.1 / 2015-01-30
+==================
+
+  * Restore the old preferences menu layout of razor-qt.
+  * Revert last commit, the folder names wasnt capitalized.
+  * Update lxqt-panel.qss
+  * Adds an scalable start-here-lxqt icon
+  * Removed deprecated files.
+  * add lxqt-leave directory files
+
+0.9.0 / 2015-01-20
+==================
+
+  * use LXQt-specific menu file
+  * Renames some .desktop files
+  * Portuguese update for .desktop files
+  * - Unify naming for a unique lxqt. No more suffixes
+  * Fixed keyboard indicator in Light theme
+  * .gitignore added
+  * Improved menu spacing Code cleaning Added style for DOM plugin Reduced icon size for the calendar's next an previous month buttons.
+  * Fix lxde/lxde-qt#364
+  * Fixed tooltips colors.
+  * Preview updated.
+  * Keyboard indicator and preview updated.
+  * Theme updated
+  * Fixed the Mount Plugin popup.
+  * Style for the new keyboard plugin.
+  * Fixed clicking area and aded style for new keyboard indicator.
+  * First approach to style in the new Keyboard Indicator plugin.
+  * Apply clicking area fix for all the plugins.
+  * Remove lxqt-appswitcher integration as we no longer offer that repo
+  * Make frost the default theme
+  * Moves translation files
+  * Fixed clickable areas. * The plugins should now respond to the mouse as expected. * Added a pressed state for buttons.
+  * Fixed clickable areas.
+  * Add the svg logo sources, by @Caig
+  * Small fixes.
+  * Small fixes.
+  * Theme improve.
+  * Renamed plasma-next-alpha to kde-plasma Shorter and simple naming in consonance with the other themes.
+  * Removed old themes. Deleted A-mego, Flat and Green themes. Now we have less themes to maintain and improve the overall quality.
+  * Changed menu icon.
+  * Remover border from nofications. Changed menu icon.
+  * Defines XDG_DATA_HOME and XDG_DATA_DIRS environment variables
+  * Updates translations infrastructure
+  * Update the required minimum cmake version
+  * Removed font-size for the clock
+  * Removed padding from the menu
+  * Numix is now Frost and uses the LXQT logo. Clock font size not defined by the style. Runner got some fixes in the search field.
+  * Fixed action button style
+  * Merged Flat-Dark and Flat-Dark-Alpha into a new Dark theme, wallpaper and many style fixes
+  * Remove plugins' margins from themes files
+  * Clean up CMakeLists.txt and drop Qt 4 support
+
+0.8.0 / 2014-08-23
+==================
+
+  * Set environment variable GTK_CSD=0 to turn off the default client side decoration for gtk+ 3 programs. (This will not always work if a gtk+3 program explicitly sets a title bar and turns on CSD.)
+  * Remove lxqt-config-randr from autostart since it's buggy and causes various weird problems.
+  * Update themes to support urgency hint
+  * Add some more default values for Qt settings.
+  * Update default config file.
+  * Add Qt5 support.
+  * Support Qt5 platform plugin and add some more comments.
+  * Add compton to autostart (turned off by default).
+  * Add Plasma Next theme
+  * Add dark aplha theme
+  * Theme changes for RGBA panel
+  * Updated qss styles for transparency
+
+0.7.0 / 2014-05-07
+==================
+
+  * Add lxqt-config-randr to autostart.
+  * Remove XDG_CURRENT_DESKTOP=Razor from environment variables.
+  * Set XDG_CURRENT_DESKTOP to LXQt
+  * remove dead template lines switch OnlyShowIn from Razor -> LXQt stringchanges LxQt -> LXQt
+  * Use LXQt as desktop name
+
+0.6.99 / 2014-04-29
+===================
+
+  * Update logo to Helix the Archist Hummingbird. Thanks @Caig
+  * Replace razor-specific graphics by Helix
+  * Add CPack rules for creating tarball
+  * Add a README file
+  * Renamed lxqt-autosuspend.desktop.in --> lxqt-powermanagement.desktop.in
+  * Add session.conf and windowmanagers.conf.
+  * Change XDG_CURRENT_DESKTOP to Razor for now. (May rename to LxQt or something else in the future.)
+  * Export environment varialbe QT_PLATFORM_PLUGIN=lxqt to let all Qt programs load lxqt-qtplugin and apply lxqt settings.
+  * Add missing cmake module.
+  * Support lxqt-session and add necessary xdg autostart desktop entry files.
+  * Run lxde-qt with XDG_CURRENT_DESKTOP=RAZOR
+  * Add visual feedback for pressed quicklaunch buttons in light and green themes.
+  * Fix renaming bugs, replacing lxqt-qt with lxde-qt
+  * Finish the crazy razor=>lxqt renaming tasks.
+  * Rename dirs and replace razor with lxqt. Install lxqt.conf to /etc/xdg/lxqt and provide theme config.
+  * Properly set default wallpaper for pcmanfm-qt. Comment out openbox config handling in startlxde-qt since it's not needed.
+  * Remove custom openbox config file in desktop.conf temporarily until lxsession is fixed.
+  * fixed theme loading
+  * Fix file paths, replacing razor with lxqt. * Remove Alt+F2 and Ctrl+Esc from openbox config file to avoid conflicts with lxqt-panel & lxqt-globalkeys.
+  * Add default configuration files for lxde-qt session.
