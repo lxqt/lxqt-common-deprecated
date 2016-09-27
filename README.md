@@ -27,7 +27,7 @@ The library is provided by all major Linux distributions like Arch Linux, Debian
 
 #### LXQt specific configuration of window manager Openbox
 
-Window manager Openbox is by default storing user settings in file `$XDG_CONFIG_HOME/openbox/rc.xml`, normally `/home/<user>/openbox/rc.xml`. When Openbox is used as window manager of LXQt a file `$XDG_CONFIG_HOME/openbox/lxqt-rc.xml` is used instead. This allows for storing LXQt-specific settings while at the same time using different settings when Openbox is e. g. used in stand-alone window manager "only" sessions without any deskop environment. LXDE is using a custom configuration file `$XDG_CONFIG_HOME/openbox/lxde-rc.xml` the very same way.   
+Window manager Openbox is by default storing user settings in file `$XDG_CONFIG_HOME/openbox/rc.xml`, normally `/home/<user>/.config/openbox/rc.xml`. When Openbox is used as window manager of LXQt a file `$XDG_CONFIG_HOME/openbox/lxqt-rc.xml` is used instead. This allows for storing LXQt-specific settings while at the same time using different settings when Openbox is e. g. used in stand-alone window manager "only" sessions without any deskop environment. LXDE is using a custom configuration file `$XDG_CONFIG_HOME/openbox/lxde-rc.xml` the very same way.   
 In order to keep backwards compatibility those configuration files are handled by LXQt as follows:
 * `lxqt-common` ships a template file `$XDG_CONFIG_DIRS/openbox/lxqt-rc.xml`, normally `/etc/xdg/openbox/lxqt-rc.xml`.
 * At the beginning of each LXQt session script `startlxqt` checks whether any of the files `rc.xml`, `lxde-rc.xml` or `lxqt-rc.xml` preexists in `$XDG_CONFIG_HOME/openbox/`.
