@@ -1,7 +1,19 @@
 
-lxqt-common-0.11.0 / 2016-09-24
+lxqt-common-0.11.1 / 2016-12-11
 ===============================
 
+  * translation: Add Portugese directories
+  * Made The Dark Theme Really Dark (#62)
+  * Update desktop entries and Replace fr_FR by fr
+  * Use the LXQtConfigVars module
+  * Fixed typo
+  * Remove cpack (#61)
+  * README.md: Fix faulty path
+
+0.11.0 / 2016-09-24
+===================
+
+  * Release 0.11.0: Add changelog
   * Update and extend README.md
   * themes-system: Add "background" property to panel
   * startlxqt: Consider LXQT_DEFAULT_OPENBOX_CONFIG
