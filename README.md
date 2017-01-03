@@ -11,16 +11,14 @@ The LXQt logo was designed by @Caig and is licensed CC-BY-SA 3.0. LXQt theme "Pl
 ## Installation
 
 ### Compiling/Packaging source code
-
-Build dependencies:
+#### Build dependencies:
 * cmake
 * lxqt-build-tools
 * git (optional for translations)
-
-Dependencies:
+#### Dependencies:
 * hicolor-icon-theme
 * x11-utils (*/bin/xmessage)
-*   
+* perl-file-mimeinfo
 
 Code configuration is handled by CMake. CMake variable `CMAKE_INSTALL_PREFIX` has to be set to `/usr` on most operating systems.
 
