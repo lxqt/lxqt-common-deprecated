@@ -10,10 +10,17 @@ The LXQt logo was designed by @Caig and is licensed CC-BY-SA 3.0. LXQt theme "Pl
 
 ## Installation
 
-### Compiling source code
+### Compiling/Packaging source code
 
-Runtime dependencies are hicolor-icon-theme, bash and binary `xmessage`.   
-Additional build dependencies are CMake and [liblxqt](https://github.com/lxde/liblxqt), optionally Git to pull latest VCS checkouts. The localization files were outsourced to repository [lxqt-l10n](https://github.com/lxde/lxqt-l10n) so the corresponding dependencies are needed, too. Please refer to this repository's `README.md` for further information.   
+Build dependencies:
+* cmake
+* lxqt-build-tools
+* git (optional for translations)
+
+Dependencies:
+* hicolor-icon-theme
+* x11-utils (*/bin/xmessage)
+*   
 
 Code configuration is handled by CMake. CMake variable `CMAKE_INSTALL_PREFIX` has to be set to `/usr` on most operating systems.
 
