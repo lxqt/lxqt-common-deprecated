@@ -15,6 +15,7 @@ The LXQt logo was designed by @Caig and is licensed CC-BY-SA 3.0. LXQt theme "Pl
 * cmake
 * lxqt-build-tools
 * git (optional for translations)
+
 #### Dependencies:
 * hicolor-icon-theme
 * x11-utils (*/bin/xmessage)
