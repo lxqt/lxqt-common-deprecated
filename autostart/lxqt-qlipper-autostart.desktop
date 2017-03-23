@@ -5,5 +5,3 @@ TryExec=qlipper
 Exec=qlipper
 OnlyShowIn=LXQt;
 X-LXQt-Need-Tray=true
-
-#TRANSLATIONS_DIR=translations
